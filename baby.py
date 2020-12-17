@@ -206,7 +206,7 @@ jalan("\033[1;96m|   ( | | | |    /| | | )\__ \|  _  |")
 jalan("\033[1;96m| |\ \| (_) | |\ \| |_) | )_) | | | |")
 jalan("\033[1;96m(_) (_)_____)_) (_)____/ \____)_) (_)")    
 jalan('\033[1;93m              Welcome to BABY Work')
-print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;96meso_Karo\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;96mStaf_Ano\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 
 CorrectUsername = "Staf_Ano"
 CorrectPassword = "Baby"
@@ -222,10 +222,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;96mWrong Password"
-            os.system('xdg-open https://www.youtube.com/channel/UCbcu_PQr2NsI9brqeUCS8tA')
+            os.system('xdg-open https://youtube.com/channel/UCn2llaTaIyqPINiT1JnceVA')
     else:
         print "\033[1;96mWrong Username"
-        os.system('xdg-open https://www.youtube.com/channel/UCbcu_PQr2NsI9brqeUCS8tA')
+        os.system('xdg-open https://youtube.com/channel/UCn2llaTaIyqPINiT1JnceVA')
 
 def login():
 	os.system('clear')
